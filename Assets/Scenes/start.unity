@@ -129,7 +129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -169,15 +169,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
       propertyPath: aspectRatio
-      value: 1.75
+      value: 1.8539326
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
       propertyPath: mWidth
-      value: 574
+      value: 660
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
       propertyPath: mHeight
-      value: 328
+      value: 371
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
       propertyPath: mSpriteName
@@ -200,6 +200,42 @@ PrefabInstance:
       propertyPath: mColor.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
+      propertyPath: mDepth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
+      propertyPath: leftAnchor.absolute
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
+      propertyPath: rightAnchor.absolute
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
+      propertyPath: bottomAnchor.absolute
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
+      propertyPath: topAnchor.absolute
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
+      propertyPath: leftAnchor.target
+      value: 
+      objectReference: {fileID: 1932517206}
+    - target: {fileID: 11400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
+      propertyPath: rightAnchor.target
+      value: 
+      objectReference: {fileID: 1932517206}
+    - target: {fileID: 11400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
+      propertyPath: bottomAnchor.target
+      value: 
+      objectReference: {fileID: 1932517206}
+    - target: {fileID: 11400002, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
+      propertyPath: topAnchor.target
+      value: 
+      objectReference: {fileID: 1932517206}
     - target: {fileID: 11400000, guid: 1f972f5483b779142956dc9ac68b71a7, type: 3}
       propertyPath: mWidth
       value: 538
@@ -373,7 +409,7 @@ Transform:
   m_GameObject: {fileID: 479093361}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0061728396, y: 0.0061728396, z: 0.0061728396}
+  m_LocalScale: {x: 0.0053908355, y: 0.0053908355, z: 0.0053908355}
   m_Children:
   - {fileID: 1932517206}
   - {fileID: 1652834606}
