@@ -7,7 +7,7 @@ public class PlayerMove : MonoBehaviour
 
     public CharacterController cc;
 
-    public Camera mainCamera;
+    public GameObject mainCamera;
 
     public float speed = 3;
 

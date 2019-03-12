@@ -207,11 +207,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc70bd44bda84174484cf02a37adb9cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 2
   distanceX: 0
-  distanceY: 1.5
-  distanceZ: 2
-  playerHeight: 1.5
+  distanceY: 2
+  distanceZ: 3
+  playerHeight: 1.4
 --- !u!1001 &271080528
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -292,10 +292,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: unitychan
       objectReference: {fileID: 0}
-    - target: {fileID: 1258172450, guid: 6020cd1bd3bf6ea4bade5d17670518a3, type: 3}
-      propertyPath: m_TagString
-      value: player
-      objectReference: {fileID: 0}
     - target: {fileID: 1258172451, guid: 6020cd1bd3bf6ea4bade5d17670518a3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -343,7 +339,7 @@ PrefabInstance:
     - target: {fileID: 2084543421, guid: 6020cd1bd3bf6ea4bade5d17670518a3, type: 3}
       propertyPath: mainCamera
       value: 
-      objectReference: {fileID: 9421022}
+      objectReference: {fileID: 9421020}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6020cd1bd3bf6ea4bade5d17670518a3, type: 3}
 --- !u!1 &602367391
@@ -491,11 +487,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Btns
       objectReference: {fileID: 0}
-    - target: {fileID: 5589310899066496861, guid: ba26b2a7fec024f4482333c072a7f615,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5589310899512645631, guid: ba26b2a7fec024f4482333c072a7f615,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -571,41 +562,10 @@ PrefabInstance:
       propertyPath: onClick.Array.data[0].mTarget
       value: 
       objectReference: {fileID: 603250224}
-    - target: {fileID: 8740403769344304997, guid: ba26b2a7fec024f4482333c072a7f615,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5589310899682947935, guid: ba26b2a7fec024f4482333c072a7f615,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 253
-      objectReference: {fileID: 0}
-    - target: {fileID: 515861794138369317, guid: ba26b2a7fec024f4482333c072a7f615,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -163
-      objectReference: {fileID: 0}
-    - target: {fileID: 5106635796625945727, guid: ba26b2a7fec024f4482333c072a7f615,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 158
-      objectReference: {fileID: 0}
-    - target: {fileID: 2639238893294977545, guid: ba26b2a7fec024f4482333c072a7f615,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 1827574476274946405, guid: ba26b2a7fec024f4482333c072a7f615,
-        type: 3}
-      propertyPath: aspectRatio
-      value: 0.9782609
-      objectReference: {fileID: 0}
-    - target: {fileID: 8457848721258494351, guid: ba26b2a7fec024f4482333c072a7f615,
-        type: 3}
-      propertyPath: aspectRatio
-      value: 0.9782609
-      objectReference: {fileID: 0}
+    - target: {fileID: 130817761, guid: ba26b2a7fec024f4482333c072a7f615, type: 3}
+      propertyPath: mainCameraFollower
+      value: 
+      objectReference: {fileID: 9421024}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba26b2a7fec024f4482333c072a7f615, type: 3}
 --- !u!1 &8740403769344304997 stripped

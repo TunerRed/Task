@@ -7,6 +7,7 @@ public class CameraFollowPlayer : MonoBehaviour
     Transform player;
     public float speed = 2;
     public float distanceX,distanceY,distanceZ,playerHeight;
+    
     // Start is called before the first frame update
     void Start()
     {
