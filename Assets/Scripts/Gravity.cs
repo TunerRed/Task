@@ -18,12 +18,12 @@ public class Gravity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < -0.1){
+        if (transform.position.y < -0.01){
             Debug.Log("positionY<0 "+transform.position.y);
             rigidBody.velocity = new Vector3(0, 0,0);
             transform.position = new Vector3(transform.position.x, 0,transform.position.z);
         }
-        if(transform.position.y > 0.1){
+        if(transform.position.y > 0.01){
             //Debug.Log("positionY>0 "+transform.position.y+" velocityY "+rigidBody.velocity.y);
             transform.position = new Vector3(transform.position.x,
                 transform.position.y+0.5f*g*Time.deltaTime,

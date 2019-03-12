@@ -8,6 +8,7 @@ TagManager:
   - mission 2
   - mission 3
   - pauseBackground
+  - player
   layers:
   - Default
   - TransparentFX
