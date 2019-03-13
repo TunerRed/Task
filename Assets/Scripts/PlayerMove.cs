@@ -8,8 +8,13 @@ public class PlayerMove : MonoBehaviour
     public CharacterController cc;
 
     public GameObject mainCamera;
+    private Animator animator;
 
     public float speed = 3;
+
+    void Start(){
+        animator = gameObject.GetComponent<Animator>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -18,7 +23,8 @@ public class PlayerMove : MonoBehaviour
         // float v = Input.GetAxis("Vertical");
         float h = LeftButtonEvent.horizontal;
         float v = LeftButtonEvent.vertical;
-        if(Mathf.Abs(h)>0.1 || Mathf.Abs(v)>0.1){
+        if(Mathf.Abs(h)>0.05 || Mathf.Abs(v)>0.05){
+            animator.SetBool("isRunning",true);
             /*
             *人物真正的行走角度是从摄像机来看的坐标
             因此有必要将获取的方向进行旋转
@@ -32,8 +38,13 @@ public class PlayerMove : MonoBehaviour
             //Debug.Log("rotationY "+mainCamera.transform.eulerAngles.y);
             //Debug.Log("New "+target);
             transform.LookAt(transform.position+target);
-            cc.SimpleMove(transform.forward*speed);
-        } 
+
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("RUN00_F")||
+                animator.GetCurrentAnimatorStateInfo(0).IsName("WAIT00"))
+                cc.SimpleMove(transform.forward*speed);
+        } else{
+            animator.SetBool("isRunning",false);
+        }
         //Vector3 target = new Vector3(0,0,1);
         //transform.LookAt(transform.position-target);
     }
